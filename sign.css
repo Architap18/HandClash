@@ -1,10 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url('.../images/Sign-up-page.png');
-} */
 
 body {
   height: 100vh;
@@ -44,14 +37,14 @@ body {
   margin-top: 10px;
   border: none;
   border-radius: 6px;
-  background: #00e5ff;
-  color: #000;
+  background: #3555b4;
+  color: #ffffff;
   cursor: pointer;
   font-weight: bold;
 }
 
 .auth-container button:hover {
-  background: #00bcd4;
+  background: #12285a;
 }
 
 #msg {
