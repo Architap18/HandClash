@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HandClash | Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>HandClash</h1>
+
+    <div class="choices">
+      <button onclick="play('rock')">🪨</button>
+      <button onclick="play('paper')">📄</button>
+      <button onclick="play('scissors')">✂️</button>
+    </div>
+
+    <p id="result">Make your move!</p>
+
+    <div class="score">
+      <span>You: <b id="userScore">0</b></span>
+      <span>Bot: <b id="botScore">0</b></span>
+    </div>
+
+    <button class="logout" onclick="logout()">Logout</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

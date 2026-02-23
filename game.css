@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  background: url("images/Sign-up-page.png") no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: black;
+  
+}
+
+.game-container {
+  /* background: rgba(255, 255, 255, 0.1); */
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  width: 550px;
+}
+
+.choices button {
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.choices button:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.logout {
+  background: #ff5252;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}

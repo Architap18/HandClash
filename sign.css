@@ -1,0 +1,60 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('.../images/Sign-up-page.png');
+} */
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  width: 320px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  text-align: center;
+  color: #0b0303;
+}
+
+.auth-container h1 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #00e5ff;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-container button:hover {
+  background: #00bcd4;
+}
+
+#msg {
+  margin-top: 10px;
+  font-size: 14px;
+}

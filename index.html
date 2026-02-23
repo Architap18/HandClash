@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HandClash | Login</title>
+  <link rel="stylesheet" href="sign.css">
+  <style>
+    body {
+      height: 100vh;
+      background: url("images/Sign-up-page.png") no-repeat center center fixed;
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="auth-container">
+    <h1>HandClash</h1>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="signup()">Sign Up</button>
+    <button onclick="login()">Login</button>
+
+    <p id="msg"></p>
+  </div>
+
+  <script src="sign.js"></script>
+</body>
+</html>
